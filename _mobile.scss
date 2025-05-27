@@ -1,0 +1,260 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    // -----------------главная страница
+    .header {
+        padding-top: 32px;
+        height: 57px;
+        border: none;
+        &__input {
+            display: none;
+        }
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation-mobile {
+        display: block;
+    }
+
+    .title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 59px;
+        text-align: center;
+    }
+
+    .top {
+        margin-bottom: 32px;
+
+        &__text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .logo__img {
+        height: 22px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .for {
+        margin-top: 32px;
+        
+        &__title {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        &__content {
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        &__item {
+            grid-column: 1/-1;
+            height: 375px;
+        }
+
+        &__text {
+            font-size: 28px;
+            line-height: 34px;
+        }
+    }
+
+    .basket__btn {
+    width: 166px;
+    height: 37px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+  }
+
+    .basket__item {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding-right: 16px;
+  }
+
+
+    .item-big {
+        height: 244px;
+    }
+
+    .products {
+        margin-top: 32px;
+    }
+
+    .product {
+        &__title {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        &__items {
+            row-gap: 32px;
+            justify-content: center;
+        }
+
+        &__item {
+            width: 343px;
+        }
+
+        &__img {
+            margin-bottom: 9px;
+        }
+
+        &__name {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__description {
+            margin-bottom: 8px;
+        }
+
+        &__price {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .offers__price {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .footer{
+        padding-bottom: 32px;
+        margin-top: 32px;
+        &__content {
+            gap: 70px;
+            justify-content: center;
+        }
+    }
+
+    // -------------------------Каталог
+    .catalog-top {
+        margin-bottom: 32px;
+
+        &__title {
+            margin-top: 82px;
+            text-align: center;
+            font-size: 48px;
+            line-height: 59px;
+        }
+    }
+
+    .filter-container {
+        margin-bottom: 32px;
+        gap: 14px;
+    }
+
+    .path__link {
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .filters {
+
+        &__btn {
+            font-size: 14px;
+            line-height: 17px;
+            order: 1;
+            width: 164px;
+        }
+
+        &__btn::after {
+            right: 15px;
+        }
+
+        &__sort select {
+            font-size: 14px;
+            line-height: 17px;
+            width: 209px;
+        }
+        &__form{
+            width: 286px;
+            row-gap: 32px;
+            left: 0;
+            top:104px;
+        }
+    }
+    .premises{
+        margin-bottom: 32px;
+    }
+
+    //--------------------------------------- корзина
+    .basket-top {
+        margin-bottom: 92px;
+
+        &__title {
+            margin-top: 82px;
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+        }
+    }
+
+    .basket {
+        &__name-box {
+            display: none;
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__name {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__description {
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        &__price {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        &__item {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        &__info{
+            grid-column: 1/4;
+        }
+        &__form{
+            grid-column: 1/-1;
+        }
+    }
+}
